@@ -1,0 +1,109 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+Artefacts/
+ContentsquareModule.xcframework
+sample-apps/TestArtefactsIntegration/TestArtefactsIntegration.xcworkspace/*
+sample-apps/TestArtefactsIntegration/TestManualIntegration/Frameworks/
+sample-apps/TestArtefactsIntegration/TestCarthageIntegration/Cart*
+sample-apps/TestArtefactsIntegration/TestCarthageIntegration/ContentsquareModule.json
+sample-apps/TestArtefactsIntegration/TestCarthageIntegration/ContentsquareErrorAnalysisModule.json
+sample-apps/TestArtefactsIntegration/Pods
+sample-apps/TestArtefactsIntegration/Podfile.lock
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/ContentsquareModule.xcframework
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/ContentsquareErrorAnalysisModule.xcframework
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/CS_iOS_SDK.podspec
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/CS_iOS_SDK_STATIC.podspec
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/CS_ErrorAnalysis.podspec
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/CS_ErrorAnalysis_STATIC.podspec
+sample-apps/TestArtefactsIntegration/TestPodsIntegration/Resources/ContentsquareBundle.bundle
+sample-apps/TestArtefactsIntegration/TestStaticIntegration/contentsquare_static
+sample-apps/TestArtefactsIntegration/TestStaticIntegration/SwiftProtobuf.xcframework
+sample-apps/TestArtefactsIntegration/TestSPMIntegration/CS_iOS_SDK
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+docs/
+
+##ScriptBuildDate hidden file
+.last-sdk-builder-build-date
+
+## SwiftLint installation folder
+.swiftlint/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+cobertura.xml
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+.build/
+Package.resolved
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+
+# Gems
+
+Gemfile.lock
+
+# AppCode related idea folder
+.idea/*
+
+# macOS desktop icons store
+.DS_Store
+build_info.json
+ContentsquareModule.framework*.zip
+coverage
